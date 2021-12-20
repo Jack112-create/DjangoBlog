@@ -33,7 +33,6 @@ DEBUG = True
 ALLOWED_HOSTS = ['codestar-jc.herokuapp.com', 'localhost']
 
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -45,6 +44,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+    'django_summernote',
     'blog',
 ]
 
